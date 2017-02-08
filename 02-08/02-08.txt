@@ -1,0 +1,7 @@
+02-08
+
+Best case: O(T) = n
+
+Worst case: O(T) = n
+
+Average case: O(T) = n

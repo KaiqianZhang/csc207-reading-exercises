@@ -1,0 +1,11 @@
+Best case: n
+
+Worst case: 2n
+
+Average case: 3n/2
+
+relevant inputs: arr
+
+operations to count: ret = arr[0]; ret < arr[i]; ret = arr[i]
+
+O(T) = n * 2 = 2n.

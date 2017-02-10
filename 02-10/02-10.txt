@@ -1,0 +1,9 @@
+02-10
+
+Proof:
+T’(n) = 1 + T’(n-2)
+      = k + T’(n-2k)
+      = n/2 + T’(n-n)
+      = n/2 + T’(0).
+
+Since we know that T’(0) = 0, we get T’(n) = n/2. In terms of big-O notation, we say T’ \in O(n). We notice that even though we change it into subtract 2, the big-O notation does not change. 

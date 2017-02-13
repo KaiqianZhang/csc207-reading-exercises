@@ -1,0 +1,16 @@
+02-13
+
+1. Stack and heap diagram
+
+Stack                   Heap
+————                   ————
+- - main
+args [ o-] - - - - ->   [ ]
+c [ ] - - - - - - - >   Counter
+                       value [0]
+
+— - doWork
+c [ ] - - - - - - ->   Counter 
+                       value [0]
+
+2. at Point B, C’s value is 0.

@@ -1,0 +1,5 @@
+02-14
+
+Loop invariant:
+ret stores the minimum value from arr[0] to arr[k] where k is the index number counted so far.
+This loop invariant is not correct because what we want is maximum. 

@@ -1,0 +1,6 @@
+02/27
+
+(A) Ok! The output is “C.foo”.
+(B) The program gives error because interface I does not contain bar() method.
+
+This exercise tells us that subtyping will never try to call a method that an object does not possess in the interface. Not sure about the safe but rejected by Java’s type system code. 
